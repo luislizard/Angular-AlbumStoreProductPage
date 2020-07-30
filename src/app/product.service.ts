@@ -8,8 +8,8 @@ import { Product } from "./product";
 @Injectable()
 export class ProductService {
 
-  const _albumUrl:string = '../assets/album.json';
-  const _productsUrl:string = '../assets/products.json';
+  _albumUrl:string = '../assets/album.json';
+  _productsUrl:string = '../assets/products.json';
 
   constructor(private _http: Http) { }
 
